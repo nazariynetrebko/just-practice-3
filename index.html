@@ -12,13 +12,511 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
       integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer" />
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header> </header>
+    <header class="header">
+      <div class="container header-container">
+        <div class="logo-wrap">
+          <a class="logo" href="">
+            <svg class="logo-icon" width="102" height="37">
+              <use href="./image/icons.svg#icon-logo-head"></use>
+            </svg>
+          </a>
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a
+                class="nav-link"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Listings
+              </a>
+            </li>
+            <li class="nav-list-item">
+              <a
+                class="nav-link"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Newsroom</a
+              >
+            </li>
+            <li class="nav-list-item">
+              <a
+                class="nav-link"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-list-item">
+              <a
+                class="nav-link"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Our team</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-    <main></main>
+    <main>
+      <!-- HERO SECTION -->
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero-logo-wrap">
+            <svg class="" width="128" height="102">
+              <use href="./image/icons.svg#icon-logo-hero"></use>
+            </svg>
+          </div>
+
+          <h1 class="hero-title">We're here to help you find a new home.</h1>
+          <div class="scroll-down-wrap">
+            <a class="scroll-down" href="">
+              <svg class="" width="20" height="23">
+                <use href="./image/icons.svg#icon-down-arrow"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- GOAL SECTION -->
+      <section class="goal-section">
+        <div class="container">
+          <div class="left-container">
+            <h2 class="section-title">
+              <span class="accent">Our goal</span><br />
+              We are dedicated to finding a house that you'll love.
+            </h2>
+          </div>
+
+          <div class="right-container">
+            <p class="goal-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
+              libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum
+              lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+            </p>
+
+            <p class="goal-description">
+              Interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus
+              nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae
+              risus tristique posuere.
+            </p>
+
+            <div class="image-wrapper">
+              <img src="./image/avatars/ava-orn.jpg" alt="" />
+              <div class="text-wrap">
+                <p class="broker-name">Ava Orn</p>
+                <p class="profession">MANAGING BROKER</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- REQUIREMENTS SECTION -->
+      <section class="requirements-section">
+        <div class="container">
+          <h2 class="section-title">
+            <span class="accent">Our requirements</span> How we choose our
+            listings.
+          </h2>
+
+          <p class="requirements-caption">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            scelerisque aliquam odio et faucibus.
+          </p>
+          <div class="requirements-wrapper">
+            <img src="./image/requirements/goal.jpg" alt="" />
+            <ul class="requirements-list">
+              <li class="req-item">
+                <img src="./image/requirements/Frame.jpg" alt="" />
+                <h3 class="req-title">Stellar locations</h3>
+                <p class="req-dscr">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </li>
+              <li class="req-item">
+                <img src="./image/requirements/Frame-1.jpg" alt="" />
+                <h3 class="req-title">High quality builds</h3>
+                <p class="req-dscr">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </li>
+              <li class="req-item">
+                <img src="./image/requirements/Frame-2.jpg" alt="" />
+                <h3 class="req-title">Expert interior design</h3>
+                <p class="req-dscr">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="background-container"> </section>
+      <!-- LISTINGS SECTION -->
+      <section class="listings-section">
+        <div class="container">
+          <h2 class="listings-title">
+            <span class="accent">Current listings</span> What we have in store
+            for you.
+          </h2>
+          <p class="listings-dscr">
+            Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
+            Vestibulum sit amet urna turpis. Mauris euismod elit et nisi
+            ultrices, ut faucibus orci tincidunt.
+          </p>
+          <ul class="listings-list">
+            <li class="listing-item">
+              <img src="./image/lisitngs/IMAGE.jpg" alt="" />
+              <div class="listing-wrap">
+                <h3 class="lsiting-title">House</h3>
+                <p class="location">California St.</p>
+                <div class="listing-info">
+                  <span class="info-item">
+                    <svg class="" width="20" height="20">
+                      <use href="./image/icons.svg#icon-bed"></use>
+                    </svg>
+                    16 beds
+                  </span>
+                  <span class="info-item">
+                    <svg class="" width="20" height="20">
+                      <use href="./image/icons.svg#icon-bath"></use>
+                    </svg>
+                    2 bathrooms
+                  </span>
+                  <span class="info-item">
+                    <svg class="" width="20" height="20">
+                      <use href="./image/icons.svg#icon-door"></use>
+                    </svg>
+                    11 rooms
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="listing-item">
+              <img src="./image/lisitngs/IMAGE-1.jpg" alt="" />
+              <div class="listing-wrap">
+                <h3 class="lsiting-title">Villa</h3>
+                <p class="location">Welford Gardens</p>
+                <div class="listing-info">
+                  <span class="info-item">
+                    <svg class="" width="20" height="20">
+                      <use href="./image/icons.svg#icon-bed"></use>
+                    </svg>
+                    12 beds
+                  </span>
+                  <span class="info-item">
+                    <svg class="" width="20" height="20">
+                      <use href="./image/icons.svg#icon-bath"></use>
+                    </svg>
+                    3 bathrooms
+                  </span>
+                  <span class="info-item">
+                    <svg class="" width="20" height="20">
+                      <use href="./image/icons.svg#icon-door"></use>
+                    </svg>
+                    16 rooms
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="listing-item">
+              <img src="./image/lisitngs/IMAGE-2.jpg" alt="" />
+              <div class="listing-wrap">
+                <h3 class="lsiting-title">House</h3>
+                <p class="location">The Grove</p>
+                <div class="listing-info">
+                  <span class="info-item">
+                    <svg class="" width="20" height="20">
+                      <use href="./image/icons.svg#icon-bed"></use>
+                    </svg>
+                    12 beds
+                  </span>
+                  <span class="info-item">
+                    <svg class="" width="20" height="20">
+                      <use href="./image/icons.svg#icon-bath"></use>
+                    </svg>
+                    2 bathrooms
+                  </span>
+                  <span class="info-item">
+                    <svg class="" width="20" height="20">
+                      <use href="./image/icons.svg#icon-door"></use>
+                    </svg>
+                    14 rooms
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="listing-item">
+              <img src="./image/lisitngs/IMAGE-3.jpg" alt="" />
+              <div class="listing-wrap">
+                <h3 class="lsiting-title">Apartment</h3>
+                <p class="location">Wallace St.</p>
+                <div class="listing-info">
+                  <span class="info-item">
+                    <svg class="" width="20" height="20">
+                      <use href="./image/icons.svg#icon-bed"></use>
+                    </svg>
+                    10 beds
+                  </span>
+                  <span class="info-item">
+                    <svg class="" width="20" height="20">
+                      <use href="./image/icons.svg#icon-bath"></use>
+                    </svg>
+                    2 bathrooms
+                  </span>
+                  <span class="info-item">
+                    <svg class="" width="20" height="20">
+                      <use href="./image/icons.svg#icon-door"></use>
+                    </svg>
+                    8 rooms
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="listing-item">
+              <img src="./image/lisitngs/IMAGE-4.jpg" alt="" />
+              <div class="listing-wrap">
+                <h3 class="lsiting-title">Apartment</h3>
+                <p class="location">Dwight Way</p>
+                <div class="listing-info">
+                  <span class="info-item">
+                    <svg class="" width="20" height="20">
+                      <use href="./image/icons.svg#icon-bed"></use>
+                    </svg>
+                    8 beds
+                  </span>
+                  <span class="info-item">
+                    <svg class="" width="20" height="20">
+                      <use href="./image/icons.svg#icon-bath"></use>
+                    </svg>
+                    1 bathrooms
+                  </span>
+                  <span class="info-item">
+                    <svg class="" width="20" height="20">
+                      <use href="./image/icons.svg#icon-door"></use>
+                    </svg>
+                    6 rooms
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="listing-item">
+              <img src="./image/lisitngs/IMAGE-5.jpg" alt="" />
+              <div class="listing-wrap">
+                <h3 class="lsiting-title">House</h3>
+                <p class="location">North Avenue</p>
+                <div class="listing-info">
+                  <span class="info-item">
+                    <svg class="" width="20" height="20">
+                      <use href="./image/icons.svg#icon-bed"></use>
+                    </svg>
+                    14 beds
+                  </span>
+                  <span class="info-item">
+                    <svg class="" width="20" height="20">
+                      <use href="./image/icons.svg#icon-bath"></use>
+                    </svg>
+                    3 bathrooms
+                  </span>
+                  <span class="info-item">
+                    <svg class="" width="20" height="20">
+                      <use href="./image/icons.svg#icon-door"></use>
+                    </svg>
+                    11 rooms
+                  </span>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="show-container">
+            <a class="show-listings" href="">
+              Show all listings
+              <svg class="" width="20" height="20">
+                <use href="./image/icons.svg#icon-right-arrow-mini"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEAM SECTION -->
+      <section class="team-section">
+        <div class="container">
+          <div class="team-descr-wrap">
+            <h2 class="team-title">
+              Our people Meet our team of dedicated and talented agents.
+            </h2>
+
+            <p>
+              Morbi neque ex, condimentum dapibus congue et, vulputate ut
+              ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et
+              nisi ultrices, ut faucibus orci tincidunt.
+            </p>
+          </div>
+
+          <div class="team-list-wrap">
+            <ul class="team-list">
+              <li class="team-list-item">
+                <img src="" alt="" />
+                <h3>Ava Orn</h3>
+                <p>Managing Broker</p>
+              </li>
+              <li class="team-list-item">
+                <img src="" alt="" />
+                <h3>David Sporer</h3>
+                <p>Agent</p>
+              </li>
+              <li>
+                <img src="" alt="" />
+                <h3>Ella Hessel</h3>
+                <p>Agent</p>
+              </li>
+              <li class="team-list-item">
+                <img src="" alt="" />
+                <h3>Trevor Torphy</h3>
+                <p>Agent</p>
+              </li>
+              <li class="team-list-item">
+                <img src="" alt="" />
+                <h3>Daryl Gislason</h3>
+                <p>REALTOR</p>
+              </li>
+              <li class="team-list-item">
+                <img src="" alt="" />
+                <h3>Amanda Giovanni</h3>
+                <p>REALTOR</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- NEWS SECTION -->
+      <section class="news-section">
+        <div class="container">
+          <h2>Newsroom Writing from Estate.</h2>
+
+          <ul class="news-list">
+            <li class="news-item">
+              <img src="" alt="" />
+              <h3 class="news-title">Press release</h3>
+              <p>Market watch: are condos still a good investment?</p>
+              <p>August 12, 2021</p>
+            </li>
+            <li class="news-item">
+              <img src="" alt="" />
+              <h3 class="news-title">Announcement</h3>
+              <p>The history of great design</p>
+              <p>August 12, 2021</p>
+            </li>
+            <li class="news-item">
+              <img src="" alt="" />
+              <h3 class="news-title">Company news</h3>
+              <p>Designers who changed everything</p>
+              <p>August 12, 2021</p>
+            </li>
+          </ul>
+
+          <a href="">Newsroom</a>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS SECTION -->
+      <section class="testimonials-section">
+        <div class="container">
+          <h2>Testimonials What our customers say.</h2>
+
+          <div class="testimonials-container">
+            <div class="testimonial-wrap">
+              <div class="rate-container">
+                <svg class="star-icon" width="18" height="18">
+                  <use href=""></use>
+                </svg>
+                <svg class="star-icon" width="18" height="18">
+                  <use href=""></use>
+                </svg>
+                <svg class="star-icon" width="18" height="18">
+                  <use href=""></use>
+                </svg>
+                <svg class="star-icon" width="18" height="18">
+                  <use href=""></use>
+                </svg>
+                <svg class="star-icon" width="18" height="18">
+                  <use href=""></use>
+                </svg>
+              </div>
+              <h3 class="testimonial-title">We found the perfect home!</h3>
+              <p class="testimonial-descr">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. Duis
+                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                commodo diam libero vitae erat. Aenean faucibus nibh et justo
+                cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+                tristique posuere.
+              </p>
+              <p class="testimonial-author">Nate Davidson</p>
+            </div>
+
+            <div class="testimonial-wrap">
+              <div class="rate-container">
+                <svg class="star-icon" width="18" height="18">
+                  <use href=""></use>
+                </svg>
+                <svg class="star-icon" width="18" height="18">
+                  <use href=""></use>
+                </svg>
+                <svg class="star-icon" width="18" height="18">
+                  <use href=""></use>
+                </svg>
+                <svg class="star-icon" width="18" height="18">
+                  <use href=""></use>
+                </svg>
+                <svg class="star-icon" width="18" height="18">
+                  <use href=""></use>
+                </svg>
+              </div>
+              <h3 class="testimonial-title">We're so happy with Estate.</h3>
+              <p class="testimonial-descr">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. Duis
+                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                commodo diam libero vitae erat. Aenean faucibus nibh et justo
+                cursus id rutrum lorem imperdiet.
+              </p>
+              <p class="testimonial-author">Laura Paulie</p>
+            </div>
+
+            <a class="list-left" href="">
+              <svg class="" width="" height="">
+                <use href=""></use>
+              </svg>
+            </a>
+            <a class="list-left" href="">
+              <svg class="" width="" height="">
+                <use href=""></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer></footer>
     <script src="" async defer></script>
